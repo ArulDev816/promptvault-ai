@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PromptVault AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>PromptVault AI</h1>
+  <p>Organize and explore useful AI prompts.</p>
+</header>
+
+<section class="search-section">
+  <input type="text" id="searchInput" placeholder="Search prompts...">
+</section>
+
+<section class="prompt-container" id="promptContainer">
+
+  <div class="prompt-card">
+    <h2>Study Assistant</h2>
+    <p>Explain this topic in simple words with examples.</p>
+    <button onclick="copyPrompt(this)">Copy Prompt</button>
+  </div>
+
+  <div class="prompt-card">
+    <h2>Content Writing</h2>
+    <p>Write a professional blog introduction about productivity.</p>
+    <button onclick="copyPrompt(this)">Copy Prompt</button>
+  </div>
+
+  <div class="prompt-card">
+    <h2>Business Ideas</h2>
+    <p>Generate 5 beginner-friendly AI startup ideas.</p>
+    <button onclick="copyPrompt(this)">Copy Prompt</button>
+  </div>
+
+  <div class="prompt-card">
+    <h2>Coding Helper</h2>
+    <p>Explain this JavaScript code step-by-step.</p>
+    <button onclick="copyPrompt(this)">Copy Prompt</button>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
